@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.waaad-logo{
+	position:absolute;
+	bottom:0;
+	right:0;
+	height:18px;
+	width:68px;
+	background:url(/images/waaadbg.png) no-repeat left top;
+	background-position:0 0;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src="/images/light.png",sizingMethod="crop");
+	_background:0;
+	z-index:99999999;
+}
+.waaad-logo:hover{
+	background-position:-70px 0;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,src="/iamges/dark.png",sizingMethod="crop")
+}
